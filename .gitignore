@@ -1,0 +1,30 @@
+# Python bytecode and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.envrc
+
+# Test, type-check, and lint artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Local editor and OS files
+.DS_Store
+.idea/
+
+# The project-local .agents/ skills, PRD.md, and future uv.lock are tracked.
